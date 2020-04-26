@@ -52,6 +52,7 @@ public class Car extends Boolean{
         if(stopTrigger() == true){
             System.exit(0);
             System.out.println("car has stopped");
+            System.out.println("have a great day!");
         }
     }
     public  void lights(){
