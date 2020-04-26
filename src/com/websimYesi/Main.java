@@ -6,7 +6,7 @@ public class Main {
         Car car = new Car();
         car.carStats();
         car.drive();
-        car.speed();
+        car.currentSpeed();
         car.lights();
         car.stop();
 
