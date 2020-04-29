@@ -12,22 +12,22 @@ public class Car {
     public void drive() {
         String isDriving = "Car is driving";
         if (methods.pedalPressed() == true) {
-            textArt.carGO();
+            textArt.carGOT();
             System.out.println(isDriving);
         } else {
-            textArt.carStop();
+            textArt.carStopT();
             System.out.println("car is not driving");
             System.exit(0);
         }
     }
 
     public void currentSpeed() {
-        methods.speed();
+        methods.speedAndPoliceChase();
     }
 
 
     public void carStats() {
-        textArt.loadingScreen();
+        textArt.loadingScreenT();
         System.out.println("Car manufacturer: " + CAR_MAN);
         System.out.println("Car model: " + CAR_MODEL);
         System.out.println("Car max speed: " + MAX_SPEED + " MPH");
@@ -38,27 +38,26 @@ public class Car {
 
     public void stop() {
         if (methods.stopTrigger() == true) {
-            textArt.carStop();
+            textArt.carStopT();
             System.out.println("car has stopped");
             System.out.println("have a great day!");
             System.exit(0);
         }
         else {
-            textArt.carGO();
+            textArt.carGOT();
             System.out.println("Car will not stop");
         }
     }
 
     public void lights() {
         if (methods.lightsSwitch() == true) {
-            textArt.lightsOn();
+            textArt.lightsOnT();
             System.out.println("headlights are on");
         }
         else {
-            textArt.lightsOFF();
+            textArt.lightsOFFT();
             System.out.println("headlights still are off");
       }
     }
-
 }
 

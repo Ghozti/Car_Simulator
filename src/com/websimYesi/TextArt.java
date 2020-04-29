@@ -1,7 +1,7 @@
 package com.websimYesi;
 
 public class TextArt {
-    public void loadingScreen() {
+    public void loadingScreenT() {
         String title = "\n" +
                 "░█████╗░░█████╗░██████╗░  ░██████╗██╗███╗░░░███╗██╗░░░██╗██╗░░░░░░█████╗░████████╗░█████╗░██████╗░\n" +
                 "██╔══██╗██╔══██╗██╔══██╗  ██╔════╝██║████╗░████║██║░░░██║██║░░░░░██╔══██╗╚══██╔══╝██╔══██╗██╔══██╗\n" +
@@ -23,7 +23,7 @@ public class TextArt {
         System.out.println(carM);
         System.out.println(car);
     }
-    public void carStop(){
+    public void carStopT(){
         System.out.println("        _______\n" +
                 "       //  ||\\ \\\n" +
                 " _____//___||_\\ \\___\n" +
@@ -31,7 +31,7 @@ public class TextArt {
                 " |_/ \\________/ \\___|\n" +
                 "___\\_/________\\_/______\n");
     }
-    public void carGO(){
+    public void carGOT(){
         System.out.println("          ___________\n" +
                 "  -  ----// --|||-- \\\\         \n" +
                 " ---- __//____|||____\\\\____   \n" +
@@ -40,7 +40,7 @@ public class TextArt {
                 "______\\_/_____________\\_/_______");
     }
 
-    public void lightsOn(){
+    public void lightsOnT(){
         System.out.println("  .    |    ,\n" +
                 "                  \\ _---_ /\n" +
                 "                -_ .'     `. _-\n" +
@@ -54,7 +54,7 @@ public class TextArt {
                 "\n");
     }
 
-    public void lightsOFF(){
+    public void lightsOFFT(){
         System.out.println("    _...._\n" +
                 "             .'      '.\n" +
                 "            /          \\\n" +
