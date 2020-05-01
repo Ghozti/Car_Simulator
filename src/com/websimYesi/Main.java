@@ -8,6 +8,7 @@ public class Main {
         car.lights();
         car.drive();
         car.currentSpeed();
+        car.race();
         car.stop();
     }
 }

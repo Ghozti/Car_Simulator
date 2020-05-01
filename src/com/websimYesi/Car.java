@@ -59,5 +59,9 @@ public class Car {
             System.out.println("headlights still are off");
       }
     }
+
+    public void race(){
+        methods.carRace();
+    }
 }
 
